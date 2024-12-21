@@ -120,22 +120,48 @@ also, write it using ternary operator.
 
  */
 // simple if/else
-let num1 = 3;
-let num2 = 5;
-// let result = ""
+// let num1 = 3;
+// let num2 = 5;
+// // let result = ""
 
-// if(num1>num2){
-//     result = num1*2;
-//     console.log(result);
-// }else{
-//     result = num1+num2;
-//     console.log(result);
+// // if(num1>num2){
+// //     result = num1*2;
+// //     console.log(result);
+// // }else{
+// //     result = num1+num2;
+// //     console.log(result);
     
-// }
+// // }
 
-// ternary oprator
-let result = (num1>num2) ? num1*2 :  num1+num2
-console.log(result);
+// // ternary oprator
+// let result = (num1>num2) ? num1*2 :  num1+num2
+// console.log(result);
 
 
 
+/***
+
+Ticket fare Calculator
+    - Children (age < 10): free
+    - Students get a 50% discount
+    - Senior citizens (age >= 60) gets a 15% Discount
+    - Otherwise Regular ticket fare 800 tk
+*/
+
+let age = 55;
+let isStudent = false;
+
+if(age<10){
+    console.log("Fre journey");
+    
+}
+else if(isStudent){
+    console.log("you got 50% off");
+    
+}else if(age>= 60){
+    console.log("Hello sir, You got 15%  discount");
+    
+}else{
+    console.log("you have to pay 800tk");
+    
+}
