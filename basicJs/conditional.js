@@ -85,23 +85,57 @@ Note:
 use nested if-else-if-else
 */
 
-let myScore = 88;
-let myFriendScore = 37;
+// let myScore = 88;
+// let myFriendScore = 37;
 
-if(myScore>80){
-    if(myFriendScore>80){
-        console.log("Let's go for a lunch");
-    }else if(myFriendScore>60 && myFriendScore<80){
-        console.log("Hey bro! good luck next time");
+// if(myScore>80){
+//     if(myFriendScore>80){
+//         console.log("Let's go for a lunch");
+//     }else if(myFriendScore>60 && myFriendScore<80){
+//         console.log("Hey bro! good luck next time");
         
-    }else if(myFriendScore>=40 && myFriendScore<60){
-        console.log("I can't seen your message bro");
+//     }else if(myFriendScore>=40 && myFriendScore<60){
+//         console.log("I can't seen your message bro");
         
-    }else if(myFriendScore<40){
-        console.log("sorry! for block you");
+//     }else if(myFriendScore<40){
+//         console.log("sorry! for block you");
         
-    }
-}else if(myScore<80){
-    console.log("I'm so sad! I have to go home and I have to sleep");
+//     }
+// }else if(myScore<80){
+//     console.log("I'm so sad! I have to go home and I have to sleep");
     
-}
+// }
+
+/***
+
+you have two numbers in two variables, called: num1, num2
+
+now declare a variable called result. 
+if num1 is bigger than num2 then result will be double of num1. if not, then the value of the variable result will be the sum 
+of num1 and num2.
+
+write a simple if-else. 
+
+also, write it using ternary operator.
+
+ */
+// simple if/else
+let num1 = 3;
+let num2 = 5;
+// let result = ""
+
+// if(num1>num2){
+//     result = num1*2;
+//     console.log(result);
+// }else{
+//     result = num1+num2;
+//     console.log(result);
+    
+// }
+
+// ternary oprator
+let result = (num1>num2) ? num1*2 :  num1+num2
+console.log(result);
+
+
+
