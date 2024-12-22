@@ -82,4 +82,4 @@ function odd_even(value){
     }
 }
 const oddEven = odd_even(9);
-console.log(oddEven);
+// console.log(oddEven);
