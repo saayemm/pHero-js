@@ -38,22 +38,54 @@ Find all the even numbers from 78 to 98.
 
  */
 
-// let num = 61;
+let num = 61;
 
-// while(num<=100){
-//     if(num%2===1){
-//         console.log("odd n", num);
-        
-//     }
-//    num++
-// }
-
-let num = 78;
-
-while(num<=98){
-    if(num%2===0){
-        console.log("this is a even no", num);
+while(num<=100){
+    if(num%2===1){
+        // console.log("odd n", num);
         
     }
-    num++
+   num++
+}
+
+let num1 = 78;
+
+while(num1<=98){
+    if(num1%2===0){
+        // console.log("this is a even no", num);
+        
+    }
+    num1++
+}
+
+/***
+Subtask-1:
+Display sum of all the odd numbers from 81 to 131.
+ */
+
+let num2 = 81;
+let sum = 0;
+while (num2<=131){
+    if(num2%2===1){
+        sum = sum+num2
+        // console.log("sum of odd", sum);
+        
+    }
+    num2++
+}
+
+// Subtask-2:
+// Display sum of all the even numbers from 206 to 311.
+// 
+
+
+let num4 = 206;
+let sum2 = 0;
+
+while(num4<=311){
+    if(num4%2===0){
+        sum2= sum2+num4;
+        console.log("sum of even", sum2);
+    }
+    num4++
 }
