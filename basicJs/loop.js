@@ -38,12 +38,22 @@ Find all the even numbers from 78 to 98.
 
  */
 
-let num = 61;
+// let num = 61;
 
-while(num<=100){
-    if(num%2===1){
-        console.log("odd n", num);
+// while(num<=100){
+//     if(num%2===1){
+//         console.log("odd n", num);
+        
+//     }
+//    num++
+// }
+
+let num = 78;
+
+while(num<=98){
+    if(num%2===0){
+        console.log("this is a even no", num);
         
     }
-   num++
+    num++
 }
