@@ -85,7 +85,20 @@ let sum2 = 0;
 while(num4<=311){
     if(num4%2===0){
         sum2= sum2+num4;
-        console.log("sum of even", sum2);
+        // console.log("sum of even", sum2);
     }
     num4++
+}
+
+// For Loop
+
+for(let num = 0; num<=10; num++){
+    // console.log(num);
+}
+
+for(let i = 0; i<100; i++){
+    console.log(i);
+    if(i>=5){
+        break;
+    }
 }
