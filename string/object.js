@@ -92,8 +92,9 @@ const myObject = {
 // key: isStudent | type:  boolean
 
 for (const prop in myObject) {
-    console.log(`key: ${prop} | type: ${typeof myObject[prop]}`);
+    // console.log(`key: ${prop} | type: ${typeof myObject[prop]}`);
 }
+
 
 
 
